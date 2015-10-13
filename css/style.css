@@ -97,20 +97,6 @@ select {
 	-moz-transition: color .1s ease-in, border-color .1s ease-in, background-color .1s ease-in, opacity .1s ease-in;
 	transition: color .1s ease-in, border-color .1s ease-in, background-color .1s ease-in, opacity .1s ease-in;
 }
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-textarea:focus,
-select:focus {
-
-}
-textarea {
-
-}
-
 .ba-container{
 	max-width: 960px;
 	margin-left: auto;
@@ -122,6 +108,8 @@ textarea {
 .ba-logo{
 	display: inline-block;
 	margin-bottom: 73px;
+	width: 65px;
+	height: 69px;
 }
 .ba-logo__img{
 	display: block;
@@ -207,12 +195,16 @@ textarea {
 	margin: 0;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-size: 34px;
 	text-transform: uppercase;
 	-webkit-transform: translateY(-50%);
 	   -moz-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
 	     -o-transform: translateY(-50%);
 	        transform: translateY(-50%);
+}
+.ba-box__title--small{
+	font-size: 30px;
 }
 .ba-box--light{
 	border-color: #FFF;
@@ -277,6 +269,7 @@ textarea {
 }
 .ba-section--contact-us {
 	padding-bottom: 0;
+	padding-top: 140px;
 }
 .ba-footer{
 	text-align: center;
@@ -288,6 +281,8 @@ textarea {
 	margin-right: 35px;
 	margin-bottom: 0;
 	vertical-align: middle;
+	width: auto;
+	height: auto;
 }
 @media screen and (max-width:960px){
 	.ba-box{
